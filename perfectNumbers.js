@@ -1,9 +1,7 @@
 (function(){
-
-	var maxNum = 100000;  //set whatever you want for a max limit
-	var divisorArray;
-	var sum = 1;
-	var start = 0;
+	
+	var sum, start, divisorArray, 
+	    maxNum = 9000;  //set whatever you want for a max limit
 
 	for (start = 3; start < maxNum; start++) {
 
